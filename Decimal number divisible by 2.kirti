@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int number;
     cin>>number;
-    if(num%2==0)
+    if(number%2==0)
           cout<<"Accepted divisible by 2";
     else
           cout<<"Not accepted";
