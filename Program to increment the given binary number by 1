@@ -1,0 +1,4 @@
+
+in1 = int(input("Enter a binary no. : "))
+increment = bin(int(in1,2)+1).replace("0b","")
+print(increment)
